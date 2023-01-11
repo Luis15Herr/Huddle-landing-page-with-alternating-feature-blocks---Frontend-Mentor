@@ -1,0 +1,17 @@
+$bodyTypo: "Open Sans", sans-serif;
+$headings: "Poppins", sans-serif;
+
+$Pink: hsl(322, 100%, 66%);
+$VeryPaleCyan: hsl(193, 100%, 96%);
+$VeryDarkCyan: hsl(192, 100%, 9%);
+$GrayishBlue: hsl(208, 11%, 55%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
