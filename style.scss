@@ -188,6 +188,7 @@ body {
 .call__tittle {
   font-size: 1.75em;
   font-family: $headings;
+  margin-bottom: -20px;
 }
 .call__btn {
   height: 80px;
@@ -200,4 +201,69 @@ body {
   font-weight: 700;
   font-size: 1.1em;
   border-radius: 40px;
+}
+
+.footer {
+  height: 600px;
+  background-color: $VeryDarkCyan;
+  .container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 0 40px;
+    padding-top: 190px;
+  }
+}
+.footer__logo {
+  margin-bottom: 35px;
+  display: block;
+}
+
+.footer__column {
+  color: #fff;
+  &:first-child {
+    padding-right: 100px;
+  }
+  &:nth-child(3) {
+    .footer__links {
+      padding-left: 15px;
+    }
+  }
+}
+.footer__item {
+  display: flex;
+  margin-bottom: 25px;
+  svg {
+    margin-top: 10px;
+    width: 35px;
+  }
+  &:nth-child(3) {
+    margin-bottom: 15px;
+    svg {
+      position: relative;
+      left: 4px;
+      top: -6px;
+    }
+  }
+  &:nth-child(4) {
+    margin-bottom: 15px;
+    svg {
+      position: relative;
+      left: 2px;
+      top: -6px;
+    }
+  }
+}
+.footer__item-text {
+  padding-left: 5px;
+  font-size: 0.88em;
+  line-height: 24px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px;
+}
+.footer__link {
+  color: white;
+  margin-bottom: 20px;
 }
