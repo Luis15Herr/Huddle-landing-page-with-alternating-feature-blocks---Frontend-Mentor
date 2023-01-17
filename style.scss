@@ -184,6 +184,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #fff;
 }
 .call__tittle {
   font-size: 1.75em;
@@ -228,6 +229,10 @@ body {
       padding-left: 15px;
     }
   }
+  &:nth-child(4) {
+    padding: 80px 20px;
+    display: flex;
+  }
 }
 .footer__item {
   display: flex;
@@ -266,4 +271,25 @@ body {
 .footer__link {
   color: white;
   margin-bottom: 20px;
+}
+
+.footer__social {
+  display: flex;
+  width: 31px;
+  height: 31px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 30px;
+  margin-right: 13px;
+}
+.copy {
+  position: relative;
+  top: -2px;
+  font-size: 0.645em;
+  color: #fff;
+  margin: auto;
+  width: 1280px;
+  text-align: right;
+  font-family: $headings;
 }
