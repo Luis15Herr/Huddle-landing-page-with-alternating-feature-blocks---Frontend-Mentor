@@ -414,6 +414,7 @@ body {
   }
   .footer {
     height: auto;
+    padding-bottom: 100px;
   }
   .footer .container {
     grid-template-columns: 1fr;
@@ -432,8 +433,73 @@ body {
   }
   .footer__column:nth-child(4) {
     padding: 0;
+    justify-content: center;
+  }
+  .footer__social {
+    margin-right: 30px;
+    transform: scale(1.2);
   }
   .footer__links {
     padding: 0;
+  }
+  .footer__link {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  .copy {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  .first__tittle {
+    font-size: 1.7em;
+    margin-top: 155px;
+  }
+  .first__text {
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+  .first__content {
+    padding: 0;
+  }
+  .first__btn {
+    width: 80%;
+  }
+  .second__section {
+    padding-bottom: 150px;
+  }
+  .second__content {
+    margin-top: 65px;
+  }
+  .second__card {
+    padding: 50px 25px;
+  }
+  .second__text {
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .call__inner {
+    padding-top: 0;
+    padding: 25px 0;
+    height: auto;
+  }
+  .call__tittle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .call__btn {
+    width: 70%;
+    height: 50px;
+  }
+  .footer__item-text {
+    font-size: 1em;
+  }
+  .copy {
+    font-size: 0.8em;
   }
 }/*# sourceMappingURL=style.css.map */
