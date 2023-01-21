@@ -51,6 +51,7 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   &:hover {
     cursor: pointer;
+    color: $GrayishBlue;
   }
 }
 .logo {
@@ -63,6 +64,8 @@ body {
 
 .first__section {
   background-color: $VeryPaleCyan;
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-size: cover;
   height: 100vh;
   .container {
     height: 100%;
@@ -86,10 +89,12 @@ body {
   font-family: $headings;
   font-size: 2.2em;
   margin-top: 110px;
+  color: $VeryDarkCyan;
 }
 .first__text {
   margin-top: 30px;
   line-height: 27px;
+  color: $VeryDarkCyan;
 }
 .first__btn {
   height: 55px;
@@ -325,7 +330,18 @@ body {
   text-align: right;
   font-family: $headings;
 }
-
+.attribution {
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  color: white;
+  width: 100%;
+  text-align: center;
+  a {
+    color: $Pink;
+  }
+}
 @media screen and (max-width: 1280px) {
   .container,
   .copy {
@@ -338,8 +354,14 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .header {
+    .container {
+      padding: 20px 0;
+    }
+  }
   .first__section {
     height: auto;
+    background-image: url(./images/bg-hero-mobile.svg);
     padding-bottom: 100px;
     .container {
       flex-wrap: wrap;
@@ -374,7 +396,7 @@ body {
     width: 95%;
   }
   .first__tittle {
-    margin-top: 255px;
+    margin-top: 120px;
   }
   .second__card {
     height: auto;
@@ -471,7 +493,7 @@ body {
   }
   .first__tittle {
     font-size: 1.7em;
-    margin-top: 155px;
+    margin-top: 125px;
   }
   .first__text {
     font-size: 1.2em;
