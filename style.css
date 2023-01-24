@@ -57,7 +57,7 @@ body {
   background-color: hsl(193deg, 100%, 96%);
   background-image: url(./images/bg-hero-desktop.svg);
   background-size: cover;
-  height: 100vh;
+  height: 720px;
 }
 .first__section .container {
   height: 100%;
