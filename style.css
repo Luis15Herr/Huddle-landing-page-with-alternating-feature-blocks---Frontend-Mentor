@@ -115,7 +115,7 @@ body {
 }
 
 .second__section {
-  padding: 160px 0;
+  padding: 160px 25px;
   padding-bottom: 306px;
 }
 
@@ -130,14 +130,19 @@ body {
 }
 .second__card:nth-child(2) .second__content {
   padding-left: 88px;
-  padding-right: 20px;
+  padding-right: 55px;
 }
 .second__card:nth-child(2) .second__img img {
-  right: -120px;
-  top: 4px;
+  right: -122px;
+  top: 3px;
+  width: 415px;
 }
 .second__card:nth-child(3) .second__content {
   padding-right: 15px;
+}
+.second__card:nth-child(3) .second__img img {
+  width: 420px;
+  right: -170px;
 }
 
 .second__content {
@@ -148,6 +153,7 @@ body {
 
 .second__tittle {
   font-family: "Poppins", sans-serif;
+  color: hsl(192deg, 100%, 9%);
   font-size: 1.55em;
   margin-bottom: 12px;
 }
@@ -161,6 +167,7 @@ body {
 
 .second__text {
   line-height: 27px;
+  color: hsl(208deg, 11%, 55%);
 }
 
 .call {
@@ -188,6 +195,7 @@ body {
   font-size: 1.75em;
   font-family: "Poppins", sans-serif;
   margin-bottom: -20px;
+  color: hsl(192deg, 100%, 9%);
 }
 
 .call__btn {
@@ -210,7 +218,7 @@ body {
 }
 
 .footer {
-  height: 600px;
+  height: 560px;
   background-color: hsl(192deg, 100%, 9%);
 }
 .footer .container {
