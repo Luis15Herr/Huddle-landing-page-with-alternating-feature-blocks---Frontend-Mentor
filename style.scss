@@ -418,11 +418,17 @@ body {
       .second__img img {
         right: 0;
         top: 4px;
+        width: 100%;
       }
     }
     &:nth-child(3) {
       .second__content {
         padding-right: 15px;
+      }
+      .second__img {
+        img {
+          width: 100%;
+        }
       }
     }
   }
@@ -521,6 +527,9 @@ body {
   }
   .second__card {
     padding: 50px 25px;
+  }
+  .second__tittle {
+    font-size: 2.1em;
   }
   .second__text {
     font-size: 1em;

@@ -416,9 +416,13 @@ body {
   .second__card:nth-child(2) .second__img img {
     right: 0;
     top: 4px;
+    width: 100%;
   }
   .second__card:nth-child(3) .second__content {
     padding-right: 15px;
+  }
+  .second__card:nth-child(3) .second__img img {
+    width: 100%;
   }
   .second__content {
     order: 2;
@@ -508,6 +512,9 @@ body {
   }
   .second__card {
     padding: 50px 25px;
+  }
+  .second__tittle {
+    font-size: 2.1em;
   }
   .second__text {
     font-size: 1em;
